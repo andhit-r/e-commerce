@@ -12,6 +12,7 @@
         "website_sale",
     ],
     "data": [
+        "security/ir.model.access.csv",
         "views/website_product.xml",
     ],
     "active": False,

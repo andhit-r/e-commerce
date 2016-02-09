@@ -10,6 +10,7 @@ This module brings the users the possibility to:
 1. Show/hide UoM on product list page
 2. Show/hide UoM on all product pages
 3. Show/hide UoM on checkout page
+4. Show/hide UoM on payment page
 
 Usage
 =====
@@ -44,9 +45,23 @@ UoM will show after product price
 
 New column for UoM will show after quantity on Shopping Chart table
 
+**Show UoM on payment page**
+
+1. Go to website
+2. Open shop menu
+3. Open one product page
+4. Click **Add to chart** button. This will open checkout page
+5. Click **Process Checkout** button. This will open billing information page
+6. Click **Confirm** button. This will open validate order page
+7. Click **Customize** menu
+8. Toggle **Show UoM** option to show/hide UoM
+
+New column for UoM will show after quantity on Shopping Chart table
+
 Know issues / Roadmap
 =====================
 * Show UoM on product page(s) configuration valid for all products. No individual configuration for each product.
+* This module does not give the ability to change order line UoM
 
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
