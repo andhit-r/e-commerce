@@ -11,7 +11,11 @@
     "depends": [
         "website_sale",
     ],
+    "demo": [
+        "demo/website_settings.yml",
+    ],
     "data": [
+        "views/assets.xml",
         "security/ir.model.access.csv",
         "views/website_product.xml",
     ],
