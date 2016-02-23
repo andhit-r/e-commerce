@@ -26,11 +26,12 @@
                 waitFor:    "section#product_detail div.product_price span:contains(Unit(s))",
                 element:    'label:contains(32 GB) input',
             },
-            // {
-            //     title:      "Untitled #1",
-            //     content:    "TODO",
-            //     waitFor:    "table#cart_products span:contains(Unit(s))",
-            // },
+            {
+                title:      "Untitled #1",
+                content:    "TODO",
+                waitFor:    'label:contains(32 GB) input[checked]',
+                element:    'form[action^="/shop/cart/update"] .btn',
+            },
         ]
     });
 
