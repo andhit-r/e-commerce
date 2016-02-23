@@ -26,11 +26,11 @@
                 waitFor:    "section#product_detail div.product_price span:contains(Unit(s))",
                 element:    'form[action^="/shop/chart/update"] .btn",
             },
-            {
-                title:      "Untitled #1",
-                content:    "TODO",
-                waitFor:    "table#cart_products span:contains(Unit(s))",
-            },
+            // {
+            //     title:      "Untitled #1",
+            //     content:    "TODO",
+            //     waitFor:    "table#cart_products span:contains(Unit(s))",
+            // },
         ]
     });
 
