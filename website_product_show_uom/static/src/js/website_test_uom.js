@@ -29,7 +29,7 @@
             {
                 title:      "Untitled #1",
                 content:    "TODO",
-                waitfor:    "table#cart_products span:contains(Unit(s))",
+                waitFor:    "table#cart_products span:contains(Unit(s))",
             },
         ]
     });
