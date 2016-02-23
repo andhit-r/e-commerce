@@ -32,6 +32,11 @@
                 waitFor:    'label:contains(32 GB) input[checked]',
                 element:    'form[action^="/shop/cart/update"] .btn',
             },
+            {
+                title:      "Untitled #2",
+                content:    "TODO",
+                waitFor:    "table#chart_products span:contains(Unit(s))",
+            },
         ]
     });
 
