@@ -24,7 +24,7 @@
                 title:     "Click iPod",
                 content:    "This step checks that after clicking on the ipod that the price is displayed correctly and finishes the test",
                 waitFor:    "section#product_detail div.product_price span:contains(Unit(s))",
-                // element:    'form[action^="/shop/chart/update"] .btn",
+                element:    'label:contains(32 GB) input',
             },
             // {
             //     title:      "Untitled #1",
