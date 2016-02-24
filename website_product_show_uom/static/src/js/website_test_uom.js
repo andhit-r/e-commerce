@@ -38,6 +38,21 @@
                 waitFor:    "span:contains(Unit(s))",
                 element:    'a[href="/shop/checkout"]',
             },
+            {
+                title:     "test without input error",
+                element:   'form[action="/shop/confirm_order"] .btn:contains("Confirm")',
+                onload: function (tour) {
+                    if ($("input[name='name']").val() === "")
+                        $("input[name='name']").val("website_sale-test-shoptest");
+                    if ($("input[name='email']").val() === "")
+                        $("input[name='email']").val("website_sale_test_shoptest@websitesaletest.odoo.com");
+                    $("input[name='phone']").val("123");
+                    $("input[name='street2']").val("123");
+                    $("input[name='city']").val("123");
+                    $("input[name='zip']").val("123");
+                    $("select[name='country_id']").val("21");
+                },
+            },
         ]
     });
 

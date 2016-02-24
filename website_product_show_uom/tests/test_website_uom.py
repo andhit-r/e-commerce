@@ -15,6 +15,6 @@ class TestUi(openerp.tests.HttpCase):
         self.phantom_js("/", "openerp.Tour.run('website_test_uom', 'test')",
                         "openerp.Tour.tours.website_test_uom", login="demo")
 
-    def test_03_public_uom(self):
-        self.phantom_js("/", "openerp.Tour.run('website_test_uom', 'test')",
-                        "openerp.Tour.tours.website_test_uom")
+    # def test_03_public_uom(self):
+    #     self.phantom_js("/", "openerp.Tour.run('website_test_uom', 'test')",
+    #                     "openerp.Tour.tours.website_test_uom")
