@@ -35,7 +35,7 @@
             {
                 title:      "Untitled #2",
                 content:    "TODO",
-                waitFor:    "table#chart_products span:contains(Unit(s))",
+                waitFor:    "span:contains(Unit(s))",
             },
         ]
     });
