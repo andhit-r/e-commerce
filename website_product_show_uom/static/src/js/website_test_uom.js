@@ -27,22 +27,17 @@
                 element:    'label:contains(32 GB) input',
             },
             {
-                title:      "Untitled #1",
+                title:      "Add to chart",
                 content:    "TODO",
                 waitFor:    'label:contains(32 GB) input[checked]',
                 element:    'form[action^="/shop/cart/update"] .btn',
             },
             {
-                title:      "Untitled #2",
+                title:      "Checkout",
                 content:    "TODO",
                 waitFor:    "span:contains(Unit(s))",
-            },
-            {
-                title:      "Unititled #3",
-                content:    "TODO",
                 element:    'a[href="/shop/checkout"]',
             },
-
         ]
     });
 
