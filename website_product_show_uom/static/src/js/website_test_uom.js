@@ -36,13 +36,10 @@
                 title:      "Untitled #2",
                 content:    "TODO",
                 waitFor:    "span:contains(Unit(s))",
-                element:    '#chart_products input.js_quantity',
-                sampleText: '1',
             },
             {
                 title:      "Unititled #3",
                 content:    "TODO",
-                waitFor:    '#chart_products input.js_quantity[value=1]',
                 element:    'a[href="/shop/checkout"]',
             },
 
