@@ -53,6 +53,11 @@
                     $("select[name='country_id']").val("21");
                 },
             },
+            {
+                title:      "Finish",
+                content:    "TODO",
+                waitFor:    "span:contains(Unit(s))",
+            },
         ]
     });
 
