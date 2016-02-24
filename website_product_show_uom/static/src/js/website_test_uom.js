@@ -36,6 +36,7 @@
                 title:      "Untitled #2",
                 content:    "TODO",
                 waitFor:    "span:contains(Unit(s))",
+                element:    'a[href="/shop/checkout"]',
             },
         ]
     });
